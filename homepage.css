@@ -21,7 +21,7 @@ li a{
 }
 
 .active{
-    background-color: blue;
+    background-color: black;
     color: white;
   }
 
@@ -69,7 +69,7 @@ li a:hover:not(.active) {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: aqua;
+    background-color: lightskyblue;
     padding: 20px;
     display: flex; /* optional: make the inner divs line up horizontally */
     justify-content: space-around;
@@ -94,11 +94,12 @@ li a:hover:not(.active) {
   }
 
 h3,p{
-    text-align: center;
+    text-align: start;
     padding: 8px 16px;
 }
 
 #para{
+    padding-top: 40px;
     font-size: xx-large;
     text-align: start;
 }
