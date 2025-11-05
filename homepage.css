@@ -1,0 +1,136 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: auto;
+    justify-content: end;
+    background-color: lightgray;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+    
+}
+
+li a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 8px 16px;
+
+}
+
+.active{
+    background-color: blue;
+    color: white;
+  }
+
+
+li a:hover:not(.active) {
+    background-color: #dddddd;
+    color: black;
+  }
+
+  .image{
+    position:relative;
+    padding:0;
+    margin:0;
+    width:100%;
+    height: 650px;
+    overflow: hidden;
+  }
+
+  img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* dark overlay with 40% opacity */
+  }
+  
+
+  .intro{
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    text-align: start;
+    color: white;
+    font-size: x-large;
+
+  }
+
+  .section1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    display: flex; /* optional: make the inner divs line up horizontally */
+    justify-content: space-around;
+    box-sizing: border-box; 
+    
+
+  }
+
+  .section1 div{
+    padding: 20px;
+  }
+
+  .card:hover{
+    background-color: skyblue;
+  }
+
+  .card{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+h3,p{
+    text-align: center;
+    padding: 8px 16px;
+}
+
+#para{
+    font-size: xx-large;
+    text-align: start;
+}
+
+.items{
+    width:100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    height: 300px;
+}
+
+.items div{
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.items div h4{
+    text-align: center;
+}
+
+.img1{
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    object-fit: cover;
+}
